@@ -18,8 +18,8 @@ moleculeParser = do
   char '('
   inner <- many1 (moleculeParser <|> atomParser)
   char ')'
-  amount <- many1 digit
-  return $ multDict (read amount) (sumConcatDict inner)
+  amount <- many digit
+  return $ multDict (safeReadNumber amount) (sumConcatDict inner)
 
 atomParser :: Parsec String () MolDict
 atomParser = do
