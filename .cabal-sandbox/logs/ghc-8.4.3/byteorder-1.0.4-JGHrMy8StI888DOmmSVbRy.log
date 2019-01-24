@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28511/byteorder-1.0.4'
+Configuring byteorder-1.0.4...
+Preprocessing library for byteorder-1.0.4..
+Building library for byteorder-1.0.4..
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, dist/dist-sandbox-cae292d1/build/System/ByteOrder.o )
+[1 of 1] Compiling System.ByteOrder ( System/ByteOrder.hs, dist/dist-sandbox-cae292d1/build/System/ByteOrder.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for byteorder-1.0.4..
+Running Haddock on library for byteorder-1.0.4..
+Haddock coverage:
+  67% (  2 /  3) in 'System.ByteOrder'
+  Missing documentation for:
+    Module header
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/byteorder/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/byteorder-1.0.4-JGHrMy8StI888DOmmSVbRy
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28511/byteorder-1.0.4'

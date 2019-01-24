@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/exceptions-0.10.0'
+Configuring exceptions-0.10.0...
+Preprocessing library for exceptions-0.10.0..
+Building library for exceptions-0.10.0..
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/Catch.o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/Catch/Pure.o )
+[1 of 2] Compiling Control.Monad.Catch ( src/Control/Monad/Catch.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/Catch.p_o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src/Control/Monad/Catch/Pure.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/Catch/Pure.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for exceptions-0.10.0..
+Running Haddock on library for exceptions-0.10.0..
+Haddock coverage:
+ 100% ( 33 / 33) in 'Control.Monad.Catch'
+  80% (  8 / 10) in 'Control.Monad.Catch.Pure'
+  Missing documentation for:
+    Catch (src/Control/Monad/Catch/Pure.hs:95)
+    runCatch (src/Control/Monad/Catch/Pure.hs:97)
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/exceptions/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/exceptions-0.10.0-CxZF6fjB5Z4GsPqBR1nkMs
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/exceptions-0.10.0'

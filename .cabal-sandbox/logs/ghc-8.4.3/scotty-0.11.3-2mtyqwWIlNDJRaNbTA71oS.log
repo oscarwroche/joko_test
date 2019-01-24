@@ -1,0 +1,87 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-40196/scotty-0.11.3'
+Configuring scotty-0.11.3...
+Preprocessing library for scotty-0.11.3..
+Building library for scotty-0.11.3..
+[1 of 6] Compiling Web.Scotty.Internal.Types ( Web/Scotty/Internal/Types.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Internal/Types.o )
+[2 of 6] Compiling Web.Scotty.Util  ( Web/Scotty/Util.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Util.o )
+[3 of 6] Compiling Web.Scotty.Action ( Web/Scotty/Action.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Action.o )
+[4 of 6] Compiling Web.Scotty.Route ( Web/Scotty/Route.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Route.o )
+
+Web/Scotty/Route.hs:148:17: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+148 |     let rbody = requestBody req
+    |                 ^^^^^^^^^^^
+[5 of 6] Compiling Web.Scotty.Trans ( Web/Scotty/Trans.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Trans.o )
+[6 of 6] Compiling Web.Scotty       ( Web/Scotty.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty.o )
+[1 of 6] Compiling Web.Scotty.Internal.Types ( Web/Scotty/Internal/Types.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Internal/Types.p_o )
+[2 of 6] Compiling Web.Scotty.Util  ( Web/Scotty/Util.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Util.p_o )
+[3 of 6] Compiling Web.Scotty.Action ( Web/Scotty/Action.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Action.p_o )
+[4 of 6] Compiling Web.Scotty.Route ( Web/Scotty/Route.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Route.p_o )
+
+Web/Scotty/Route.hs:148:17: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+148 |     let rbody = requestBody req
+    |                 ^^^^^^^^^^^
+[5 of 6] Compiling Web.Scotty.Trans ( Web/Scotty/Trans.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty/Trans.p_o )
+[6 of 6] Compiling Web.Scotty       ( Web/Scotty.hs, dist/dist-sandbox-cae292d1/build/Web/Scotty.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for scotty-0.11.3..
+Running Haddock on library for scotty-0.11.3..
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: fail-4.9.0.0, nats-1.1.2
+
+Web/Scotty/Route.hs:148:17: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+148 |     let rbody = requestBody req
+    |                 ^^^^^^^^^^^
+Haddock coverage:
+   5% (  1 / 21) in 'Web.Scotty.Internal.Types'
+  Missing documentation for:
+    Module header
+    Options (Web/Scotty/Internal/Types.hs:41)
+    Middleware (Web/Scotty/Internal/Types.hs:55)
+    Application (Web/Scotty/Internal/Types.hs:56)
+    ScottyState (Web/Scotty/Internal/Types.hs:59)
+    addMiddleware (Web/Scotty/Internal/Types.hs:68)
+    addRoute (Web/Scotty/Internal/Types.hs:71)
+    addHandler (Web/Scotty/Internal/Types.hs:74)
+    ScottyT (Web/Scotty/Internal/Types.hs:77)
+    ActionError (Web/Scotty/Internal/Types.hs:82)
+    ErrorHandler (Web/Scotty/Internal/Types.hs:104)
+    Param (Web/Scotty/Internal/Types.hs:107)
+    File (Web/Scotty/Internal/Types.hs:109)
+    ActionEnv (Web/Scotty/Internal/Types.hs:111)
+    RequestBodyState (Web/Scotty/Internal/Types.hs:118)
+    BodyPartiallyStreamed (Web/Scotty/Internal/Types.hs:122)
+    Content (Web/Scotty/Internal/Types.hs:126)
+    ScottyResponse (Web/Scotty/Internal/Types.hs:130)
+    ActionT (Web/Scotty/Internal/Types.hs:138)
+    RoutePattern (Web/Scotty/Internal/Types.hs:199)
+  91% ( 59 / 65) in 'Web.Scotty.Trans'
+  Missing documentation for:
+    Options (Web/Scotty/Internal/Types.hs:41)
+    Param (Web/Scotty/Internal/Types.hs:107)
+    RoutePattern (Web/Scotty/Internal/Types.hs:199)
+    File (Web/Scotty/Internal/Types.hs:109)
+    ScottyT (Web/Scotty/Internal/Types.hs:77)
+    ActionT (Web/Scotty/Internal/Types.hs:138)
+  90% ( 57 / 63) in 'Web.Scotty'
+  Missing documentation for:
+    Options (Web/Scotty/Internal/Types.hs:41)
+    Param (Web/Scotty/Internal/Types.hs:107)
+    ScottyM (Web/Scotty.hs:51)
+    ActionM (Web/Scotty.hs:52)
+    RoutePattern (Web/Scotty/Internal/Types.hs:199)
+    File (Web/Scotty/Internal/Types.hs:109)
+Documentation created: dist/dist-sandbox-cae292d1/doc/html/scotty/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/scotty-0.11.3-2mtyqwWIlNDJRaNbTA71oS
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-40196/scotty-0.11.3'

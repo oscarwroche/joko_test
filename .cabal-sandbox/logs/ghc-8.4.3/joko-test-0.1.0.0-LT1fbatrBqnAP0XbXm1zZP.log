@@ -1,0 +1,11 @@
+cabal: Entering directory '.'
+Configuring joko-test-0.1.0.0...
+Preprocessing executable 'joko-test' for joko-test-0.1.0.0..
+Building executable 'joko-test' for joko-test-0.1.0.0..
+[4 of 4] Compiling Main             ( Main.hs, dist/dist-sandbox-cae292d1/build/joko-test/joko-test-tmp/Main.o )
+Linking dist/dist-sandbox-cae292d1/build/joko-test/joko-test ...
+Warning: No documentation was generated as this package does not contain a
+library. Perhaps you want to use the --executables, --tests, --benchmarks or
+--foreign-libraries flags.
+Installing executable joko-test in /Users/oscarroche/dev/joko_test/.cabal-sandbox/bin
+cabal: Leaving directory '.'

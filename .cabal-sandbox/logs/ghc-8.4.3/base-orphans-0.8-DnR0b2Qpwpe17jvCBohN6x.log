@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/base-orphans-0.8'
+Configuring base-orphans-0.8...
+Preprocessing library for base-orphans-0.8..
+Building library for base-orphans-0.8..
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-cae292d1/build/Data/Orphans/Prelude.o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-cae292d1/build/Data/Orphans.o )
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-cae292d1/build/Data/Orphans/Prelude.p_o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-cae292d1/build/Data/Orphans.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for base-orphans-0.8..
+Running Haddock on library for base-orphans-0.8..
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Orphans'
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/base-orphans/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/base-orphans-0.8-DnR0b2Qpwpe17jvCBohN6x
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/base-orphans-0.8'

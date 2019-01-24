@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/unliftio-core-0.1.2.0'
+Configuring unliftio-core-0.1.2.0...
+Preprocessing library for unliftio-core-0.1.2.0..
+Building library for unliftio-core-0.1.2.0..
+[1 of 2] Compiling Control.Monad.IO.Unlift ( src/Control/Monad/IO/Unlift.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/IO/Unlift.o )
+[2 of 2] Compiling Paths_unliftio_core ( dist/dist-sandbox-cae292d1/build/autogen/Paths_unliftio_core.hs, dist/dist-sandbox-cae292d1/build/Paths_unliftio_core.o )
+[1 of 2] Compiling Control.Monad.IO.Unlift ( src/Control/Monad/IO/Unlift.hs, dist/dist-sandbox-cae292d1/build/Control/Monad/IO/Unlift.p_o )
+[2 of 2] Compiling Paths_unliftio_core ( dist/dist-sandbox-cae292d1/build/autogen/Paths_unliftio_core.hs, dist/dist-sandbox-cae292d1/build/Paths_unliftio_core.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for unliftio-core-0.1.2.0..
+Running Haddock on library for unliftio-core-0.1.2.0..
+Haddock coverage:
+ 100% (  8 /  8) in 'Control.Monad.IO.Unlift'
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/unliftio-core/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/unliftio-core-0.1.2.0-900TPot3SR34dceIcVaslS
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/unliftio-core-0.1.2.0'

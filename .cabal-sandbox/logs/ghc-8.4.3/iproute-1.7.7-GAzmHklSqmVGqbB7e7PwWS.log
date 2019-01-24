@@ -1,0 +1,48 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/iproute-1.7.7'
+Configuring iproute-1.7.7...
+Preprocessing library for iproute-1.7.7..
+Building library for iproute-1.7.7..
+[1 of 8] Compiling Data.IP.Addr     ( Data/IP/Addr.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Addr.o )
+[2 of 8] Compiling Data.IP.Mask     ( Data/IP/Mask.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Mask.o )
+[3 of 8] Compiling Data.IP.Range    ( Data/IP/Range.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Range.o )
+[4 of 8] Compiling Data.IP.Op       ( Data/IP/Op.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Op.o )
+[5 of 8] Compiling Data.IP.Internal ( Data/IP/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Internal.o )
+[6 of 8] Compiling Data.IP          ( Data/IP.hs, dist/dist-sandbox-cae292d1/build/Data/IP.o )
+[7 of 8] Compiling Data.IP.RouteTable.Internal ( Data/IP/RouteTable/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/IP/RouteTable/Internal.o )
+[8 of 8] Compiling Data.IP.RouteTable ( Data/IP/RouteTable.hs, dist/dist-sandbox-cae292d1/build/Data/IP/RouteTable.o )
+[1 of 8] Compiling Data.IP.Addr     ( Data/IP/Addr.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Addr.p_o )
+[2 of 8] Compiling Data.IP.Mask     ( Data/IP/Mask.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Mask.p_o )
+[3 of 8] Compiling Data.IP.Range    ( Data/IP/Range.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Range.p_o )
+[4 of 8] Compiling Data.IP.Op       ( Data/IP/Op.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Op.p_o )
+[5 of 8] Compiling Data.IP.Internal ( Data/IP/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/IP/Internal.p_o )
+[6 of 8] Compiling Data.IP          ( Data/IP.hs, dist/dist-sandbox-cae292d1/build/Data/IP.p_o )
+[7 of 8] Compiling Data.IP.RouteTable.Internal ( Data/IP/RouteTable/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/IP/RouteTable/Internal.p_o )
+[8 of 8] Compiling Data.IP.RouteTable ( Data/IP/RouteTable.hs, dist/dist-sandbox-cae292d1/build/Data/IP/RouteTable.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for iproute-1.7.7..
+Running Haddock on library for iproute-1.7.7..
+Haddock coverage:
+  50% (  3 /  6) in 'Data.IP.Internal'
+  Missing documentation for:
+    Module header
+    IPv4Addr (Data/IP/Addr.hs:77)
+    IPv6Addr (Data/IP/Addr.hs:78)
+ 100% ( 30 / 30) in 'Data.IP'
+  54% ( 14 / 26) in 'Data.IP.RouteTable.Internal'
+  Missing documentation for:
+    intToTBitIPv4 (Data/IP/RouteTable/Internal.hs:61)
+    intToTBitIPv6 (Data/IP/RouteTable/Internal.hs:64)
+    intToTBitsWord32 (Data/IP/RouteTable/Internal.hs:67)
+    intToTBitsIPv4 (Data/IP/RouteTable/Internal.hs:70)
+    intToTBitsIPv6 (Data/IP/RouteTable/Internal.hs:73)
+    link (Data/IP/RouteTable/Internal.hs:161)
+    glue (Data/IP/RouteTable/Internal.hs:170)
+    keyToTestBit (Data/IP/RouteTable/Internal.hs:177)
+    isLeft (Data/IP/RouteTable/Internal.hs:180)
+    node (Data/IP/RouteTable/Internal.hs:202)
+    search (Data/IP/RouteTable/Internal.hs:249)
+    foldt (Data/IP/RouteTable/Internal.hs:343)
+ 100% ( 18 / 18) in 'Data.IP.RouteTable'
+Documentation created: dist/dist-sandbox-cae292d1/doc/html/iproute/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/iproute-1.7.7-GAzmHklSqmVGqbB7e7PwWS
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/iproute-1.7.7'

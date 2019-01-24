@@ -1,0 +1,174 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-40197/warp-3.2.26'
+Configuring warp-3.2.26...
+Preprocessing library for warp-3.2.26..
+Building library for warp-3.2.26..
+[ 1 of 39] Compiling Network.Wai.Handler.Warp.Date ( Network/Wai/Handler/Warp/Date.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Date.o )
+[ 2 of 39] Compiling Network.Wai.Handler.Warp.Imports ( Network/Wai/Handler/Warp/Imports.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Imports.o )
+[ 3 of 39] Compiling Network.Wai.Handler.Warp.HashMap ( Network/Wai/Handler/Warp/HashMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HashMap.o )
+[ 4 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.EncodeFrame ( Network/Wai/Handler/Warp/HTTP2/EncodeFrame.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/EncodeFrame.o )
+[ 5 of 39] Compiling Network.Wai.Handler.Warp.FileInfoCache ( Network/Wai/Handler/Warp/FileInfoCache.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/FileInfoCache.o )
+[ 6 of 39] Compiling Network.Wai.Handler.Warp.Counter ( Network/Wai/Handler/Warp/Counter.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Counter.o )
+[ 7 of 39] Compiling Network.Wai.Handler.Warp.MultiMap ( Network/Wai/Handler/Warp/MultiMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/MultiMap.o )
+[ 8 of 39] Compiling Network.Wai.Handler.Warp.FdCache ( Network/Wai/Handler/Warp/FdCache.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/FdCache.o )
+[ 9 of 39] Compiling Network.Wai.Handler.Warp.PackInt ( Network/Wai/Handler/Warp/PackInt.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/PackInt.o )
+[10 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.File ( Network/Wai/Handler/Warp/HTTP2/File.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/File.o )
+[11 of 39] Compiling Network.Wai.Handler.Warp.ReadInt ( Network/Wai/Handler/Warp/ReadInt.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/ReadInt.o )
+[12 of 39] Compiling Network.Wai.Handler.Warp.Timeout ( Network/Wai/Handler/Warp/Timeout.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Timeout.o )
+[13 of 39] Compiling Network.Wai.Handler.Warp.Types ( Network/Wai/Handler/Warp/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Types.o )
+[14 of 39] Compiling Network.Wai.Handler.Warp.RequestHeader ( Network/Wai/Handler/Warp/RequestHeader.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/RequestHeader.o )
+[15 of 39] Compiling Network.Wai.Handler.Warp.Header ( Network/Wai/Handler/Warp/Header.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Header.o )
+[16 of 39] Compiling Network.Wai.Handler.Warp.File ( Network/Wai/Handler/Warp/File.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/File.o )
+[17 of 39] Compiling Network.Wai.Handler.Warp.Conduit ( Network/Wai/Handler/Warp/Conduit.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Conduit.o )
+[18 of 39] Compiling Network.Wai.Handler.Warp.Buffer ( Network/Wai/Handler/Warp/Buffer.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Buffer.o )
+[19 of 39] Compiling Network.Wai.Handler.Warp.SendFile ( Network/Wai/Handler/Warp/SendFile.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/SendFile.o )
+[20 of 39] Compiling Network.Wai.Handler.Warp.ResponseHeader ( Network/Wai/Handler/Warp/ResponseHeader.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/ResponseHeader.o )
+[21 of 39] Compiling Network.Wai.Handler.Warp.Recv ( Network/Wai/Handler/Warp/Recv.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Recv.o )
+[22 of 39] Compiling Network.Wai.Handler.Warp.IO ( Network/Wai/Handler/Warp/IO.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/IO.o )
+[23 of 39] Compiling Network.Wai.Handler.Warp.Windows ( Network/Wai/Handler/Warp/Windows.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Windows.o )
+[24 of 39] Compiling Paths_warp       ( dist/dist-sandbox-cae292d1/build/autogen/Paths_warp.hs, dist/dist-sandbox-cae292d1/build/Paths_warp.o )
+[25 of 39] Compiling Network.Wai.Handler.Warp.Settings ( Network/Wai/Handler/Warp/Settings.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Settings.o )
+[26 of 39] Compiling Network.Wai.Handler.Warp.Request ( Network/Wai/Handler/Warp/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Request.o )
+[27 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Manager ( Network/Wai/Handler/Warp/HTTP2/Manager.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Manager.o )
+[28 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Types ( Network/Wai/Handler/Warp/HTTP2/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Types.o )
+[29 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Request ( Network/Wai/Handler/Warp/HTTP2/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Request.o )
+
+Network/Wai/Handler/Warp/HTTP2/Request.hs:53:9: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+53 |       , requestBody = body
+   |         ^^^^^^^^^^^
+[30 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.HPACK ( Network/Wai/Handler/Warp/HTTP2/HPACK.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/HPACK.o )
+[31 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Sender ( Network/Wai/Handler/Warp/HTTP2/Sender.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Sender.o )
+[32 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Receiver ( Network/Wai/Handler/Warp/HTTP2/Receiver.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Receiver.o )
+[33 of 39] Compiling Network.Wai.Handler.Warp.Response ( Network/Wai/Handler/Warp/Response.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Response.o )
+[34 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Worker ( Network/Wai/Handler/Warp/HTTP2/Worker.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Worker.o )
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:250:25: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+250 |                 !body = requestBody req
+    |                         ^^^^^^^^^^^
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:257:51: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+257 |                 !req' = req { vault = vaultValue, requestBody = body' }
+    |                                                   ^^^^^^^^^^^
+[35 of 39] Compiling Network.Wai.Handler.Warp.HTTP2 ( Network/Wai/Handler/Warp/HTTP2.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2.o )
+[36 of 39] Compiling Network.Wai.Handler.Warp.Run ( Network/Wai/Handler/Warp/Run.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Run.o )
+[37 of 39] Compiling Network.Wai.Handler.Warp.WithApplication ( Network/Wai/Handler/Warp/WithApplication.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/WithApplication.o )
+[38 of 39] Compiling Network.Wai.Handler.Warp.Internal ( Network/Wai/Handler/Warp/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Internal.o )
+[39 of 39] Compiling Network.Wai.Handler.Warp ( Network/Wai/Handler/Warp.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp.o )
+[ 1 of 39] Compiling Network.Wai.Handler.Warp.Date ( Network/Wai/Handler/Warp/Date.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Date.p_o )
+[ 2 of 39] Compiling Network.Wai.Handler.Warp.Imports ( Network/Wai/Handler/Warp/Imports.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Imports.p_o )
+[ 3 of 39] Compiling Network.Wai.Handler.Warp.HashMap ( Network/Wai/Handler/Warp/HashMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HashMap.p_o )
+[ 4 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.EncodeFrame ( Network/Wai/Handler/Warp/HTTP2/EncodeFrame.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/EncodeFrame.p_o )
+[ 5 of 39] Compiling Network.Wai.Handler.Warp.FileInfoCache ( Network/Wai/Handler/Warp/FileInfoCache.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/FileInfoCache.p_o )
+[ 6 of 39] Compiling Network.Wai.Handler.Warp.Counter ( Network/Wai/Handler/Warp/Counter.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Counter.p_o )
+[ 7 of 39] Compiling Network.Wai.Handler.Warp.MultiMap ( Network/Wai/Handler/Warp/MultiMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/MultiMap.p_o )
+[ 8 of 39] Compiling Network.Wai.Handler.Warp.FdCache ( Network/Wai/Handler/Warp/FdCache.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/FdCache.p_o )
+[ 9 of 39] Compiling Network.Wai.Handler.Warp.PackInt ( Network/Wai/Handler/Warp/PackInt.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/PackInt.p_o )
+[10 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.File ( Network/Wai/Handler/Warp/HTTP2/File.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/File.p_o )
+[11 of 39] Compiling Network.Wai.Handler.Warp.ReadInt ( Network/Wai/Handler/Warp/ReadInt.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/ReadInt.p_o )
+[12 of 39] Compiling Network.Wai.Handler.Warp.Timeout ( Network/Wai/Handler/Warp/Timeout.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Timeout.p_o )
+[13 of 39] Compiling Network.Wai.Handler.Warp.Types ( Network/Wai/Handler/Warp/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Types.p_o )
+[14 of 39] Compiling Network.Wai.Handler.Warp.RequestHeader ( Network/Wai/Handler/Warp/RequestHeader.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/RequestHeader.p_o )
+[15 of 39] Compiling Network.Wai.Handler.Warp.Header ( Network/Wai/Handler/Warp/Header.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Header.p_o )
+[16 of 39] Compiling Network.Wai.Handler.Warp.File ( Network/Wai/Handler/Warp/File.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/File.p_o )
+[17 of 39] Compiling Network.Wai.Handler.Warp.Conduit ( Network/Wai/Handler/Warp/Conduit.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Conduit.p_o )
+[18 of 39] Compiling Network.Wai.Handler.Warp.Buffer ( Network/Wai/Handler/Warp/Buffer.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Buffer.p_o )
+[19 of 39] Compiling Network.Wai.Handler.Warp.SendFile ( Network/Wai/Handler/Warp/SendFile.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/SendFile.p_o )
+[20 of 39] Compiling Network.Wai.Handler.Warp.ResponseHeader ( Network/Wai/Handler/Warp/ResponseHeader.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/ResponseHeader.p_o )
+[21 of 39] Compiling Network.Wai.Handler.Warp.Recv ( Network/Wai/Handler/Warp/Recv.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Recv.p_o )
+[22 of 39] Compiling Network.Wai.Handler.Warp.IO ( Network/Wai/Handler/Warp/IO.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/IO.p_o )
+[23 of 39] Compiling Network.Wai.Handler.Warp.Windows ( Network/Wai/Handler/Warp/Windows.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Windows.p_o )
+[24 of 39] Compiling Paths_warp       ( dist/dist-sandbox-cae292d1/build/autogen/Paths_warp.hs, dist/dist-sandbox-cae292d1/build/Paths_warp.p_o )
+[25 of 39] Compiling Network.Wai.Handler.Warp.Settings ( Network/Wai/Handler/Warp/Settings.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Settings.p_o )
+[26 of 39] Compiling Network.Wai.Handler.Warp.Request ( Network/Wai/Handler/Warp/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Request.p_o )
+[27 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Manager ( Network/Wai/Handler/Warp/HTTP2/Manager.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Manager.p_o )
+[28 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Types ( Network/Wai/Handler/Warp/HTTP2/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Types.p_o )
+[29 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Request ( Network/Wai/Handler/Warp/HTTP2/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Request.p_o )
+
+Network/Wai/Handler/Warp/HTTP2/Request.hs:53:9: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+53 |       , requestBody = body
+   |         ^^^^^^^^^^^
+[30 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.HPACK ( Network/Wai/Handler/Warp/HTTP2/HPACK.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/HPACK.p_o )
+[31 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Sender ( Network/Wai/Handler/Warp/HTTP2/Sender.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Sender.p_o )
+[32 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Receiver ( Network/Wai/Handler/Warp/HTTP2/Receiver.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Receiver.p_o )
+[33 of 39] Compiling Network.Wai.Handler.Warp.Response ( Network/Wai/Handler/Warp/Response.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Response.p_o )
+[34 of 39] Compiling Network.Wai.Handler.Warp.HTTP2.Worker ( Network/Wai/Handler/Warp/HTTP2/Worker.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2/Worker.p_o )
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:250:25: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+250 |                 !body = requestBody req
+    |                         ^^^^^^^^^^^
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:257:51: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+257 |                 !req' = req { vault = vaultValue, requestBody = body' }
+    |                                                   ^^^^^^^^^^^
+[35 of 39] Compiling Network.Wai.Handler.Warp.HTTP2 ( Network/Wai/Handler/Warp/HTTP2.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/HTTP2.p_o )
+[36 of 39] Compiling Network.Wai.Handler.Warp.Run ( Network/Wai/Handler/Warp/Run.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Run.p_o )
+[37 of 39] Compiling Network.Wai.Handler.Warp.WithApplication ( Network/Wai/Handler/Warp/WithApplication.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/WithApplication.p_o )
+[38 of 39] Compiling Network.Wai.Handler.Warp.Internal ( Network/Wai/Handler/Warp/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp/Internal.p_o )
+[39 of 39] Compiling Network.Wai.Handler.Warp ( Network/Wai/Handler/Warp.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/Warp.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for warp-3.2.26..
+Running Haddock on library for warp-3.2.26..
+
+Network/Wai/Handler/Warp/HTTP2/Request.hs:53:9: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+53 |       , requestBody = body
+   |         ^^^^^^^^^^^
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:250:25: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+250 |                 !body = requestBody req
+    |                         ^^^^^^^^^^^
+
+Network/Wai/Handler/Warp/HTTP2/Worker.hs:257:51: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+257 |                 !req' = req { vault = vaultValue, requestBody = body' }
+    |                                                   ^^^^^^^^^^^
+Haddock coverage:
+  88% ( 69 / 78) in 'Network.Wai.Handler.Warp.Internal'
+  Missing documentation for:
+    Module header
+    InternalInfo (Network/Wai/Handler/Warp/Types.hs:140)
+    TimeoutThread (Network/Wai/Handler/Warp/Timeout.hs:112)
+    Fd
+    openFile (Network/Wai/Handler/Warp/FdCache.hs:70)
+    closeFile (Network/Wai/Handler/Warp/FdCache.hs:76)
+    setFileCloseOnExec (Network/Wai/Handler/Warp/FdCache.hs:82)
+    Hash (Network/Wai/Handler/Warp/FileInfoCache.hs:21)
+    windowsThreadBlockHack (Network/Wai/Handler/Warp/Windows.hs:25)
+  99% ( 78 / 79) in 'Network.Wai.Handler.Warp'
+  Missing documentation for:
+    http2dataTrailers (Network/Wai/Handler/Warp/HTTP2/Types.hs:292)
+Warning: Network.Wai.Handler.Warp.Internal: could not find link destinations for:
+    Hash MutableFdCache InternalInfo1
+Documentation created: dist/dist-sandbox-cae292d1/doc/html/warp/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/warp-3.2.26-CUYgOYzGh5f8XoLvjCLVX3
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-40197/warp-3.2.26'

@@ -1,0 +1,438 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28510/wai-extra-3.0.25'
+Configuring wai-extra-3.0.25...
+Preprocessing library for wai-extra-3.0.25..
+Building library for wai-extra-3.0.25..
+[ 1 of 32] Compiling Network.Wai.EventSource.EventStream ( Network/Wai/EventSource/EventStream.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/EventSource/EventStream.o )
+[ 2 of 32] Compiling Network.Wai.EventSource ( Network/Wai/EventSource.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/EventSource.o )
+[ 3 of 32] Compiling Network.Wai.Handler.CGI ( Network/Wai/Handler/CGI.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/CGI.o )
+
+Network/Wai/Handler/CGI.hs:117:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+117 |             , requestBody = requestBody'
+    |               ^^^^^^^^^^^
+[ 4 of 32] Compiling Network.Wai.Handler.SCGI ( Network/Wai/Handler/SCGI.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/SCGI.o )
+[ 5 of 32] Compiling Network.Wai.Header ( Network/Wai/Header.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Header.o )
+[ 6 of 32] Compiling Network.Wai.Middleware.AcceptOverride ( Network/Wai/Middleware/AcceptOverride.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/AcceptOverride.o )
+[ 7 of 32] Compiling Network.Wai.Middleware.AddHeaders ( Network/Wai/Middleware/AddHeaders.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/AddHeaders.o )
+[ 8 of 32] Compiling Network.Wai.Middleware.Autohead ( Network/Wai/Middleware/Autohead.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Autohead.o )
+[ 9 of 32] Compiling Network.Wai.Middleware.CleanPath ( Network/Wai/Middleware/CleanPath.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/CleanPath.o )
+[10 of 32] Compiling Network.Wai.Middleware.Gzip ( Network/Wai/Middleware/Gzip.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Gzip.o )
+[11 of 32] Compiling Network.Wai.Middleware.HttpAuth ( Network/Wai/Middleware/HttpAuth.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/HttpAuth.o )
+[12 of 32] Compiling Network.Wai.Middleware.Jsonp ( Network/Wai/Middleware/Jsonp.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Jsonp.o )
+[13 of 32] Compiling Network.Wai.Middleware.Local ( Network/Wai/Middleware/Local.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Local.o )
+[14 of 32] Compiling Network.Wai.Middleware.MethodOverride ( Network/Wai/Middleware/MethodOverride.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/MethodOverride.o )
+[15 of 32] Compiling Network.Wai.Middleware.MethodOverridePost ( Network/Wai/Middleware/MethodOverridePost.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/MethodOverridePost.o )
+
+Network/Wai/Middleware/MethodOverridePost.hs:43:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+43 |     (("_method", Just newmethod):_) -> return $ req {requestBody = rb, requestMethod = newmethod}
+   |                                                      ^^^^^^^^^^^
+
+Network/Wai/Middleware/MethodOverridePost.hs:44:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+44 |     _                               -> return $ req {requestBody = rb}
+   |                                                      ^^^^^^^^^^^
+[16 of 32] Compiling Network.Wai.Middleware.RequestLogger.Internal ( Network/Wai/Middleware/RequestLogger/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger/Internal.o )
+[17 of 32] Compiling Network.Wai.Middleware.Rewrite ( Network/Wai/Middleware/Rewrite.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Rewrite.o )
+[18 of 32] Compiling Network.Wai.Middleware.Routed ( Network/Wai/Middleware/Routed.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Routed.o )
+[19 of 32] Compiling Network.Wai.Middleware.StreamFile ( Network/Wai/Middleware/StreamFile.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/StreamFile.o )
+[20 of 32] Compiling Network.Wai.Middleware.StripHeaders ( Network/Wai/Middleware/StripHeaders.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/StripHeaders.o )
+[21 of 32] Compiling Network.Wai.Middleware.Timeout ( Network/Wai/Middleware/Timeout.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Timeout.o )
+[22 of 32] Compiling Network.Wai.Middleware.Vhost ( Network/Wai/Middleware/Vhost.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Vhost.o )
+[23 of 32] Compiling Network.Wai.Parse ( Network/Wai/Parse.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Parse.o )
+
+Network/Wai/Parse.hs:376:48: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+376 |         Just rbt -> sinkRequestBodyEx o s rbt (requestBody r)
+    |                                                ^^^^^^^^^^^
+[24 of 32] Compiling Network.Wai.Middleware.RequestLogger ( Network/Wai/Middleware/RequestLogger.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger.o )
+
+Network/Wai/Middleware/RequestLogger.hs:223:16: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+223 |          bs <- requestBody req
+    |                ^^^^^^^^^^^
+
+Network/Wai/Middleware/RequestLogger.hs:243:20: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+243 |   let req' = req { requestBody = rbody }
+    |                    ^^^^^^^^^^^
+[25 of 32] Compiling Network.Wai.Middleware.RequestLogger.JSON ( Network/Wai/Middleware/RequestLogger/JSON.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger/JSON.o )
+
+Network/Wai/Middleware/RequestLogger/JSON.hs:80:13: warning: [-Wdeprecations]
+    In the use of data constructor ‘SockAddrCan’
+    (imported from Network.Socket, but defined in network-2.6.3.5:Network.Socket.Types):
+    Deprecated: "This will be removed in 3.0"
+   |
+80 | sockToJSON (SockAddrCan i) =
+   |             ^^^^^^^^^^^
+[26 of 32] Compiling Network.Wai.Request ( Network/Wai/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Request.o )
+
+Network/Wai/Request.hs:87:37: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+87 |                 then return $ req { requestBody = throwIO (RequestSizeException maxSize) }
+   |                                     ^^^^^^^^^^^
+
+Network/Wai/Request.hs:92:19: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+92 |                 { requestBody = do
+   |                   ^^^^^^^^^^^
+
+Network/Wai/Request.hs:93:27: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+93 |                     bs <- requestBody req
+   |                           ^^^^^^^^^^^
+[27 of 32] Compiling Network.Wai.Middleware.ForceSSL ( Network/Wai/Middleware/ForceSSL.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/ForceSSL.o )
+[28 of 32] Compiling Network.Wai.Middleware.ForceDomain ( Network/Wai/Middleware/ForceDomain.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/ForceDomain.o )
+[29 of 32] Compiling Network.Wai.Middleware.Approot ( Network/Wai/Middleware/Approot.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Approot.o )
+[30 of 32] Compiling Network.Wai.Test.Internal ( Network/Wai/Test/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Test/Internal.o )
+[31 of 32] Compiling Network.Wai.Test ( Network/Wai/Test.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Test.o )
+
+Network/Wai/Test.hs:174:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+174 |             { requestBody = atomicModifyIORef refChunks $ \bss ->
+    |               ^^^^^^^^^^^
+[32 of 32] Compiling Network.Wai.UrlMap ( Network/Wai/UrlMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/UrlMap.o )
+[ 1 of 32] Compiling Network.Wai.EventSource.EventStream ( Network/Wai/EventSource/EventStream.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/EventSource/EventStream.p_o )
+[ 2 of 32] Compiling Network.Wai.EventSource ( Network/Wai/EventSource.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/EventSource.p_o )
+[ 3 of 32] Compiling Network.Wai.Handler.CGI ( Network/Wai/Handler/CGI.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/CGI.p_o )
+
+Network/Wai/Handler/CGI.hs:117:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+117 |             , requestBody = requestBody'
+    |               ^^^^^^^^^^^
+[ 4 of 32] Compiling Network.Wai.Handler.SCGI ( Network/Wai/Handler/SCGI.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Handler/SCGI.p_o )
+[ 5 of 32] Compiling Network.Wai.Header ( Network/Wai/Header.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Header.p_o )
+[ 6 of 32] Compiling Network.Wai.Middleware.AcceptOverride ( Network/Wai/Middleware/AcceptOverride.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/AcceptOverride.p_o )
+[ 7 of 32] Compiling Network.Wai.Middleware.AddHeaders ( Network/Wai/Middleware/AddHeaders.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/AddHeaders.p_o )
+[ 8 of 32] Compiling Network.Wai.Middleware.Autohead ( Network/Wai/Middleware/Autohead.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Autohead.p_o )
+[ 9 of 32] Compiling Network.Wai.Middleware.CleanPath ( Network/Wai/Middleware/CleanPath.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/CleanPath.p_o )
+[10 of 32] Compiling Network.Wai.Middleware.Gzip ( Network/Wai/Middleware/Gzip.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Gzip.p_o )
+[11 of 32] Compiling Network.Wai.Middleware.HttpAuth ( Network/Wai/Middleware/HttpAuth.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/HttpAuth.p_o )
+[12 of 32] Compiling Network.Wai.Middleware.Jsonp ( Network/Wai/Middleware/Jsonp.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Jsonp.p_o )
+[13 of 32] Compiling Network.Wai.Middleware.Local ( Network/Wai/Middleware/Local.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Local.p_o )
+[14 of 32] Compiling Network.Wai.Middleware.MethodOverride ( Network/Wai/Middleware/MethodOverride.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/MethodOverride.p_o )
+[15 of 32] Compiling Network.Wai.Middleware.MethodOverridePost ( Network/Wai/Middleware/MethodOverridePost.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/MethodOverridePost.p_o )
+
+Network/Wai/Middleware/MethodOverridePost.hs:43:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+43 |     (("_method", Just newmethod):_) -> return $ req {requestBody = rb, requestMethod = newmethod}
+   |                                                      ^^^^^^^^^^^
+
+Network/Wai/Middleware/MethodOverridePost.hs:44:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+44 |     _                               -> return $ req {requestBody = rb}
+   |                                                      ^^^^^^^^^^^
+[16 of 32] Compiling Network.Wai.Middleware.RequestLogger.Internal ( Network/Wai/Middleware/RequestLogger/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger/Internal.p_o )
+[17 of 32] Compiling Network.Wai.Middleware.Rewrite ( Network/Wai/Middleware/Rewrite.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Rewrite.p_o )
+[18 of 32] Compiling Network.Wai.Middleware.Routed ( Network/Wai/Middleware/Routed.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Routed.p_o )
+[19 of 32] Compiling Network.Wai.Middleware.StreamFile ( Network/Wai/Middleware/StreamFile.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/StreamFile.p_o )
+[20 of 32] Compiling Network.Wai.Middleware.StripHeaders ( Network/Wai/Middleware/StripHeaders.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/StripHeaders.p_o )
+[21 of 32] Compiling Network.Wai.Middleware.Timeout ( Network/Wai/Middleware/Timeout.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Timeout.p_o )
+[22 of 32] Compiling Network.Wai.Middleware.Vhost ( Network/Wai/Middleware/Vhost.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Vhost.p_o )
+[23 of 32] Compiling Network.Wai.Parse ( Network/Wai/Parse.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Parse.p_o )
+
+Network/Wai/Parse.hs:376:48: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+376 |         Just rbt -> sinkRequestBodyEx o s rbt (requestBody r)
+    |                                                ^^^^^^^^^^^
+[24 of 32] Compiling Network.Wai.Middleware.RequestLogger ( Network/Wai/Middleware/RequestLogger.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger.p_o )
+
+Network/Wai/Middleware/RequestLogger.hs:223:16: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+223 |          bs <- requestBody req
+    |                ^^^^^^^^^^^
+
+Network/Wai/Middleware/RequestLogger.hs:243:20: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+243 |   let req' = req { requestBody = rbody }
+    |                    ^^^^^^^^^^^
+[25 of 32] Compiling Network.Wai.Middleware.RequestLogger.JSON ( Network/Wai/Middleware/RequestLogger/JSON.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/RequestLogger/JSON.p_o )
+
+Network/Wai/Middleware/RequestLogger/JSON.hs:80:13: warning: [-Wdeprecations]
+    In the use of data constructor ‘SockAddrCan’
+    (imported from Network.Socket, but defined in network-2.6.3.5:Network.Socket.Types):
+    Deprecated: "This will be removed in 3.0"
+   |
+80 | sockToJSON (SockAddrCan i) =
+   |             ^^^^^^^^^^^
+[26 of 32] Compiling Network.Wai.Request ( Network/Wai/Request.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Request.p_o )
+
+Network/Wai/Request.hs:87:37: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+87 |                 then return $ req { requestBody = throwIO (RequestSizeException maxSize) }
+   |                                     ^^^^^^^^^^^
+
+Network/Wai/Request.hs:92:19: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+92 |                 { requestBody = do
+   |                   ^^^^^^^^^^^
+
+Network/Wai/Request.hs:93:27: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+93 |                     bs <- requestBody req
+   |                           ^^^^^^^^^^^
+[27 of 32] Compiling Network.Wai.Middleware.ForceSSL ( Network/Wai/Middleware/ForceSSL.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/ForceSSL.p_o )
+[28 of 32] Compiling Network.Wai.Middleware.ForceDomain ( Network/Wai/Middleware/ForceDomain.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/ForceDomain.p_o )
+[29 of 32] Compiling Network.Wai.Middleware.Approot ( Network/Wai/Middleware/Approot.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Middleware/Approot.p_o )
+[30 of 32] Compiling Network.Wai.Test.Internal ( Network/Wai/Test/Internal.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Test/Internal.p_o )
+[31 of 32] Compiling Network.Wai.Test ( Network/Wai/Test.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/Test.p_o )
+
+Network/Wai/Test.hs:174:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+174 |             { requestBody = atomicModifyIORef refChunks $ \bss ->
+    |               ^^^^^^^^^^^
+[32 of 32] Compiling Network.Wai.UrlMap ( Network/Wai/UrlMap.hs, dist/dist-sandbox-cae292d1/build/Network/Wai/UrlMap.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for wai-extra-3.0.25..
+Running Haddock on library for wai-extra-3.0.25..
+
+Network/Wai/Handler/CGI.hs:117:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’ (imported from Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+117 |             , requestBody = requestBody'
+    |               ^^^^^^^^^^^
+
+Network/Wai/Middleware/MethodOverridePost.hs:43:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+43 |     (("_method", Just newmethod):_) -> return $ req {requestBody = rb, requestMethod = newmethod}
+   |                                                      ^^^^^^^^^^^
+
+Network/Wai/Middleware/MethodOverridePost.hs:44:54: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+44 |     _                               -> return $ req {requestBody = rb}
+   |                                                      ^^^^^^^^^^^
+
+Network/Wai/Parse.hs:376:48: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+376 |         Just rbt -> sinkRequestBodyEx o s rbt (requestBody r)
+    |                                                ^^^^^^^^^^^
+
+Network/Wai/Middleware/RequestLogger.hs:223:16: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+223 |          bs <- requestBody req
+    |                ^^^^^^^^^^^
+
+Network/Wai/Middleware/RequestLogger.hs:243:20: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+243 |   let req' = req { requestBody = rbody }
+    |                    ^^^^^^^^^^^
+
+Network/Wai/Middleware/RequestLogger/JSON.hs:80:13: warning: [-Wdeprecations]
+    In the use of data constructor ‘SockAddrCan’
+    (imported from Network.Socket, but defined in network-2.6.3.5:Network.Socket.Types):
+    Deprecated: "This will be removed in 3.0"
+   |
+80 | sockToJSON (SockAddrCan i) =
+   |             ^^^^^^^^^^^
+
+Network/Wai/Request.hs:87:37: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+87 |                 then return $ req { requestBody = throwIO (RequestSizeException maxSize) }
+   |                                     ^^^^^^^^^^^
+
+Network/Wai/Request.hs:92:19: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+92 |                 { requestBody = do
+   |                   ^^^^^^^^^^^
+
+Network/Wai/Request.hs:93:27: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+   |
+93 |                     bs <- requestBody req
+   |                           ^^^^^^^^^^^
+
+Network/Wai/Test.hs:174:15: warning: [-Wdeprecations]
+    In the use of ‘requestBody’
+    (imported from Network.Wai, but defined in Network.Wai.Internal):
+    Deprecated: "requestBody's name is misleading because it only gets a partial chunk of the body. Use getRequestBodyChunk instead."
+    |
+174 |             { requestBody = atomicModifyIORef refChunks $ \bss ->
+    |               ^^^^^^^^^^^
+Haddock coverage:
+ 100% (  3 /  3) in 'Network.Wai.EventSource.EventStream'
+ 100% (  4 /  4) in 'Network.Wai.EventSource'
+  80% (  4 /  5) in 'Network.Wai.Handler.CGI'
+  Missing documentation for:
+    requestBodyFunc (Network/Wai/Handler/CGI.hs:191)
+   0% (  0 /  3) in 'Network.Wai.Handler.SCGI'
+  Missing documentation for:
+    Module header
+    run (Network/Wai/Handler/SCGI.hs:19)
+    runSendfile (Network/Wai/Handler/SCGI.hs:22)
+ 100% (  2 /  2) in 'Network.Wai.Header'
+   0% (  0 /  2) in 'Network.Wai.Middleware.AcceptOverride'
+  Missing documentation for:
+    Module header
+    acceptOverride (Network/Wai/Middleware/AcceptOverride.hs:9)
+ 100% (  2 /  2) in 'Network.Wai.Middleware.AddHeaders'
+  50% (  1 /  2) in 'Network.Wai.Middleware.Autohead'
+  Missing documentation for:
+    autohead (Network/Wai/Middleware/Autohead.hs:11)
+   0% (  0 /  2) in 'Network.Wai.Middleware.CleanPath'
+  Missing documentation for:
+    Module header
+    cleanPath (Network/Wai/Middleware/CleanPath.hs:15)
+  62% (  5 /  8) in 'Network.Wai.Middleware.Gzip'
+  Missing documentation for:
+    GzipSettings (Network/Wai/Middleware/Gzip.hs:48)
+    gzipFiles (Network/Wai/Middleware/Gzip.hs:49)
+    gzipCheckMime (Network/Wai/Middleware/Gzip.hs:50)
+ 100% ( 12 / 12) in 'Network.Wai.Middleware.HttpAuth'
+ 100% (  2 /  2) in 'Network.Wai.Middleware.Jsonp'
+ 100% (  2 /  2) in 'Network.Wai.Middleware.Local'
+  50% (  1 /  2) in 'Network.Wai.Middleware.MethodOverride'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Network.Wai.Middleware.MethodOverridePost'
+  96% ( 22 / 23) in 'Network.Wai.Middleware.Rewrite'
+  Missing documentation for:
+    Module header
+ 100% (  3 /  3) in 'Network.Wai.Middleware.Routed'
+ 100% (  2 /  2) in 'Network.Wai.Middleware.StreamFile'
+  40% (  2 /  5) in 'Network.Wai.Middleware.StripHeaders'
+  Missing documentation for:
+    Module header
+    stripHeader (Network/Wai/Middleware/StripHeaders.hs:23)
+    stripHeaders (Network/Wai/Middleware/StripHeaders.hs:26)
+ 100% (  4 /  4) in 'Network.Wai.Middleware.Timeout'
+   0% (  0 /  5) in 'Network.Wai.Middleware.Vhost'
+  Missing documentation for:
+    Module header
+    vhost (Network/Wai/Middleware/Vhost.hs:14)
+    redirectWWW (Network/Wai/Middleware/Vhost.hs:20)
+    redirectTo (Network/Wai/Middleware/Vhost.hs:30)
+    redirectToLogged (Network/Wai/Middleware/Vhost.hs:34)
+  97% ( 32 / 33) in 'Network.Wai.Parse'
+  Missing documentation for:
+    sinkRequestBody (Network/Wai/Parse.hs:378)
+  56% (  9 / 16) in 'Network.Wai.Middleware.RequestLogger'
+  Missing documentation for:
+    Module header
+    mkRequestLogger (Network/Wai/Middleware/RequestLogger.hs:91)
+    OutputFormat (Network/Wai/Middleware/RequestLogger.hs:52)
+    OutputFormatter (Network/Wai/Middleware/RequestLogger.hs:57)
+    OutputFormatterWithDetails (Network/Wai/Middleware/RequestLogger.hs:58)
+    Destination (Network/Wai/Middleware/RequestLogger.hs:61)
+    Callback (Network/Wai/Middleware/RequestLogger.hs:65)
+   0% (  0 /  2) in 'Network.Wai.Middleware.RequestLogger.JSON'
+  Missing documentation for:
+    Module header
+    formatAsJSON (Network/Wai/Middleware/RequestLogger/JSON.hs:26)
+ 100% (  5 /  5) in 'Network.Wai.Request'
+ 100% (  2 /  2) in 'Network.Wai.Middleware.ForceSSL'
+ 100% (  2 /  2) in 'Network.Wai.Middleware.ForceDomain'
+ 100% ( 11 / 11) in 'Network.Wai.Middleware.Approot'
+  50% (  3 /  6) in 'Network.Wai.Test.Internal'
+  Missing documentation for:
+    Module header
+    Session (Network/Wai/Test/Internal.hs:11)
+    ClientState (Network/Wai/Test/Internal.hs:18)
+  52% ( 15 / 29) in 'Network.Wai.Test'
+  Missing documentation for:
+    Module header
+    Session (Network/Wai/Test/Internal.hs:11)
+    request (Network/Wai/Test.hs:109)
+    srequest (Network/Wai/Test.hs:169)
+    SRequest (Network/Wai/Test.hs:99)
+    SResponse (Network/Wai/Test.hs:103)
+    setRawPathInfo (Network/Wai/Test.hs:123)
+    assertStatus (Network/Wai/Test.hs:231)
+    assertContentType (Network/Wai/Test.hs:214)
+    assertBody (Network/Wai/Test.hs:241)
+    assertBodyContains (Network/Wai/Test.hs:249)
+    assertHeader (Network/Wai/Test.hs:259)
+    assertNoHeader (Network/Wai/Test.hs:278)
+    WaiTestFailure (Network/Wai/Test.hs:210)
+  57% (  4 /  7) in 'Network.Wai.UrlMap'
+  Missing documentation for:
+    UrlMap' (Network/Wai/UrlMap.hs:38)
+    UrlMap (Network/Wai/UrlMap.hs:53)
+    mapUrls (Network/Wai/UrlMap.hs:103)
+Warning: Network.Wai.UrlMap: could not find link destinations for:
+    ToApplication Path
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/wai-extra/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/wai-extra-3.0.25-2w2LvliQ5692ekcHqUrfS7
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28510/wai-extra-3.0.25'

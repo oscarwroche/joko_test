@@ -1,0 +1,30 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28510/appar-0.1.7'
+Configuring appar-0.1.7...
+Preprocessing library for appar-0.1.7..
+Building library for appar-0.1.7..
+[1 of 5] Compiling Text.Appar.Input ( Text/Appar/Input.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/Input.o )
+[2 of 5] Compiling Text.Appar.Parser ( Text/Appar/Parser.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/Parser.o )
+[3 of 5] Compiling Text.Appar.LazyByteString ( Text/Appar/LazyByteString.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/LazyByteString.o )
+[4 of 5] Compiling Text.Appar.ByteString ( Text/Appar/ByteString.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/ByteString.o )
+[5 of 5] Compiling Text.Appar.String ( Text/Appar/String.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/String.o )
+[1 of 5] Compiling Text.Appar.Input ( Text/Appar/Input.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/Input.p_o )
+[2 of 5] Compiling Text.Appar.Parser ( Text/Appar/Parser.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/Parser.p_o )
+[3 of 5] Compiling Text.Appar.LazyByteString ( Text/Appar/LazyByteString.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/LazyByteString.p_o )
+[4 of 5] Compiling Text.Appar.ByteString ( Text/Appar/ByteString.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/ByteString.p_o )
+[5 of 5] Compiling Text.Appar.String ( Text/Appar/String.hs, dist/dist-sandbox-cae292d1/build/Text/Appar/String.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for appar-0.1.7..
+Running Haddock on library for appar-0.1.7..
+Haddock coverage:
+  98% ( 39 / 40) in 'Text.Appar.LazyByteString'
+  Missing documentation for:
+    MkParser (Text/Appar/Parser.hs:64)
+  98% ( 39 / 40) in 'Text.Appar.ByteString'
+  Missing documentation for:
+    MkParser (Text/Appar/Parser.hs:64)
+  98% ( 39 / 40) in 'Text.Appar.String'
+  Missing documentation for:
+    MkParser (Text/Appar/Parser.hs:64)
+Documentation created: dist/dist-sandbox-cae292d1/doc/html/appar/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/appar-0.1.7-58EayCbxwBuFxoHLBOkyPy
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28510/appar-0.1.7'

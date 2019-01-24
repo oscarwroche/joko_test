@@ -1,0 +1,19 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28511/uuid-types-1.0.3'
+Configuring uuid-types-1.0.3...
+Preprocessing library for uuid-types-1.0.3..
+Building library for uuid-types-1.0.3..
+[1 of 3] Compiling Data.UUID.Types.Internal.Builder ( Data/UUID/Types/Internal/Builder.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types/Internal/Builder.o )
+[2 of 3] Compiling Data.UUID.Types.Internal ( Data/UUID/Types/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types/Internal.o )
+[3 of 3] Compiling Data.UUID.Types  ( Data/UUID/Types.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types.o )
+[1 of 3] Compiling Data.UUID.Types.Internal.Builder ( Data/UUID/Types/Internal/Builder.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types/Internal/Builder.p_o )
+[2 of 3] Compiling Data.UUID.Types.Internal ( Data/UUID/Types/Internal.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types/Internal.p_o )
+[3 of 3] Compiling Data.UUID.Types  ( Data/UUID/Types.hs, dist/dist-sandbox-cae292d1/build/Data/UUID/Types.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for uuid-types-1.0.3..
+Running Haddock on library for uuid-types-1.0.3..
+Haddock coverage:
+ 100% ( 16 / 16) in 'Data.UUID.Types'
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/uuid-types/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/uuid-types-1.0.3-tE9Bfk2PgXDUPgbtamBdI
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28511/uuid-types-1.0.3'

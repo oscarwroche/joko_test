@@ -1,0 +1,21 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/simple-sendfile-0.2.28'
+Configuring simple-sendfile-0.2.28...
+Preprocessing library for simple-sendfile-0.2.28..
+Building library for simple-sendfile-0.2.28..
+[1 of 4] Compiling Network.Sendfile.IOVec ( dist/dist-sandbox-cae292d1/build/Network/Sendfile/IOVec.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/IOVec.o )
+[2 of 4] Compiling Network.Sendfile.Types ( Network/Sendfile/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/Types.o )
+[3 of 4] Compiling Network.Sendfile.BSD ( dist/dist-sandbox-cae292d1/build/Network/Sendfile/BSD.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/BSD.o )
+[4 of 4] Compiling Network.Sendfile ( Network/Sendfile.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile.o )
+[1 of 4] Compiling Network.Sendfile.IOVec ( dist/dist-sandbox-cae292d1/build/Network/Sendfile/IOVec.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/IOVec.p_o )
+[2 of 4] Compiling Network.Sendfile.Types ( Network/Sendfile/Types.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/Types.p_o )
+[3 of 4] Compiling Network.Sendfile.BSD ( dist/dist-sandbox-cae292d1/build/Network/Sendfile/BSD.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile/BSD.p_o )
+[4 of 4] Compiling Network.Sendfile ( Network/Sendfile.hs, dist/dist-sandbox-cae292d1/build/Network/Sendfile.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for simple-sendfile-0.2.28..
+Running Haddock on library for simple-sendfile-0.2.28..
+Haddock coverage:
+ 100% (  6 /  6) in 'Network.Sendfile'
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/simple-sendfile/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/simple-sendfile-0.2.28-9jGO37H4HJk39zg0LBcdKQ
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/simple-sendfile-0.2.28'

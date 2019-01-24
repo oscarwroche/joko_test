@@ -1,0 +1,24 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/th-abstraction-0.2.10.0'
+Configuring th-abstraction-0.2.10.0...
+Preprocessing library for th-abstraction-0.2.10.0..
+Building library for th-abstraction-0.2.10.0..
+[1 of 2] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-cae292d1/build/Language/Haskell/TH/Datatype/Internal.o )
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-cae292d1/build/Language/Haskell/TH/Datatype.o )
+[1 of 2] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-cae292d1/build/Language/Haskell/TH/Datatype/Internal.p_o )
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-cae292d1/build/Language/Haskell/TH/Datatype.p_o )
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for th-abstraction-0.2.10.0..
+Running Haddock on library for th-abstraction-0.2.10.0..
+Haddock coverage:
+  92% ( 49 / 53) in 'Language.Haskell.TH.Datatype'
+  Missing documentation for:
+    arrowKCompat (src/Language/Haskell/TH/Datatype.hs:1800)
+    isStrictAnnot (src/Language/Haskell/TH/Datatype.hs:261)
+    notStrictAnnot (src/Language/Haskell/TH/Datatype.hs:261)
+    unpackedAnnot (src/Language/Haskell/TH/Datatype.hs:261)
+Warning: Language.Haskell.TH.Datatype: could not find link destinations for:
+    mergeArguments
+Documentation created:
+dist/dist-sandbox-cae292d1/doc/html/th-abstraction/index.html
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/th-abstraction-0.2.10.0-JJmwldYzKheGWu9Q6Tgghp
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/th-abstraction-0.2.10.0'

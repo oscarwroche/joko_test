@@ -1,0 +1,9 @@
+cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/fail-4.9.0.0'
+Configuring fail-4.9.0.0...
+Preprocessing library for fail-4.9.0.0..
+Building library for fail-4.9.0.0..
+Preprocessing library for fail-4.9.0.0..
+Running Haddock on library for fail-4.9.0.0..
+haddock: No input file(s).
+Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/fail-4.9.0.0-BAHmj60kS5K7NVhhKpm9J5
+cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28513/fail-4.9.0.0'
