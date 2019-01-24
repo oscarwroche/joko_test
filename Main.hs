@@ -2,10 +2,11 @@
 module Main where
 
 import Text.Parsec (parse)
+import Text.Parsec.Error (ParseError)
 import Data.Maybe (fromMaybe)
-import Data.Either
 import Data.Text.Lazy (pack)
 import Parsers
+import Utilities
 import Web.Scotty
 import System.Environment (getEnv)
 
@@ -16,4 +17,4 @@ main = do
   scotty port $ do
     get "/mol/:molecule" $ do
       molecule <- param "molecule"
-      (text . pack) $ fromRight "" $ show <$> (parse generalParser "" molecule)
+      (text . pack) $ parseInput molecule

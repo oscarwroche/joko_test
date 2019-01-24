@@ -20,4 +20,5 @@ replaceWithParens ('{':xs) = '(':(replaceWithParens xs)
 replaceWithParens ('[':xs) = '(':(replaceWithParens xs)
 replaceWithParens ('}':xs) = ')':(replaceWithParens xs)
 replaceWithParens (']':xs) = ')':(replaceWithParens xs)
-
+replaceWithParens (x:xs) = x:(replaceWithParens xs)
+replaceWithParens "" = ""
