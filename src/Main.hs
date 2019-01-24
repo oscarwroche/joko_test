@@ -17,4 +17,7 @@ main = do
   scotty port $ do
     get "/mol/:molecule" $ do
       molecule <- param "molecule"
-      (text . pack) $ parseInput molecule
+      (text . pack) $
+        case validateString molecule of
+          True -> parseInput molecule
+          False -> "Wrong formula"

@@ -3,6 +3,7 @@ module Utilities where
 import Text.Read (readMaybe)
 import Data.Maybe (fromMaybe)
 import qualified Data.Map.Strict as DM
+import Elements
 
 -- Type alias for a dictionary with string keys and integer values
 type MolDict = (DM.Map String Int)
@@ -28,3 +29,28 @@ replaceWithParens ('}':xs) = ')':(replaceWithParens xs)
 replaceWithParens (']':xs) = ')':(replaceWithParens xs)
 replaceWithParens (x:xs) = x:(replaceWithParens xs)
 replaceWithParens "" = ""
+
+-- Check if all string formed like atoms in the string are actual atoms
+validateString :: String -> Bool
+validateString s = foldr (\x acc -> acc && elem x elements) True $ (words . sepAtomsBySpaces) s
+
+sepAtomsBySpaces :: String -> String
+sepAtomsBySpaces (x:x1:xs) = case isLetter x of
+                                      True -> case isCapitalLetter x1 of 
+                                                True -> x:' ':(sepAtomsBySpaces(x1:xs))
+                                                False -> x :(sepAtomsBySpaces(x1:xs))
+                                      False -> ' ':(sepAtomsBySpaces(x1:xs))
+sepAtomsBySpaces (x:"") = case isLetter x of
+                            True -> [x]
+                            False -> ""
+sepAtomsBySpaces "" = ""
+
+isLetter :: Char -> Bool
+isLetter x = elem x (['A'..'Z'] ++ ['a'..'z'])
+
+isCapitalLetter :: Char -> Bool
+isCapitalLetter x = elem x ['A'..'Z']
+
+
+
+
