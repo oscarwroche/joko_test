@@ -1,9 +1,0 @@
-cabal: Entering directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/nats-1.1.2'
-Configuring nats-1.1.2...
-Preprocessing library for nats-1.1.2..
-Building library for nats-1.1.2..
-Preprocessing library for nats-1.1.2..
-Running Haddock on library for nats-1.1.2..
-haddock: No input file(s).
-Installing library in /Users/oscarroche/dev/joko_test/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/nats-1.1.2-Bmcp8SRmmVkAy9EI1qz8po
-cabal: Leaving directory '/var/folders/pb/55v2zn3n28s1_0bj1wvw_xcw0000gn/T/cabal-tmp-28512/nats-1.1.2'
