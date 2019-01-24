@@ -1,1 +1,1 @@
-web: joko_test
+web: joko-test
